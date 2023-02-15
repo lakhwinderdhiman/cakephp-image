@@ -1,0 +1,29 @@
+{
+    "name": "lakhwinderdhiman/cropimage",
+    "description": "cropimage PHP Client Library",
+    "keywords": ["cropimage", "api", "php", "client"],
+    "authors": [
+        {
+            "name": "Lakhwinder Singh",
+            "email": "info@web6.in",
+            "homepage": "https://web6.in",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "info@web6.in",
+        "issues": "https://github.com/lakhwinderdhiman/cakephp-image/issues",
+        "source": "https://github.com/lakhwinderdhiman/cakephp-image/"
+    },
+    "homepage": "https://web6.in",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cropimage\\Api\\": "src/"
+        },
+        "files" : ["Deprecated.php"]
+    }
+}
